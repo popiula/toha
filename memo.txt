@@ -1,1 +1,8 @@
 cd C:\Users\Public\Documents\GitHub\toha
+
+https://ndpsoftware.com/git-cheatsheet.html#loc=local_repo;
+
+
+git add *
+git commit -m "pues no sé"
+git push origin master
