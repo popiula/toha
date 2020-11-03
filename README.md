@@ -1,10 +1,13 @@
 # Toha
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b1b93b02-f278-440b-ae1b-304e9f4c4ab5/deploy-status)](https://app.netlify.com/sites/toha/deploys) ![Repository Size](https://img.shields.io/github/repo-size/hugo-toha/toha) ![Lines of Codes](https://img.shields.io/tokei/lines/github/hugo-toha/toha) ![Contributor](https://img.shields.io/github/contributors/hugo-toha/toha) ![Latest Release](https://img.shields.io/github/v/release/hugo-toha/toha?include_prereleases) ![Last Commit](https://img.shields.io/github/last-commit/hugo-toha/toha) ![Open Issues](https://img.shields.io/github/issues/hugo-toha/toha?color=important) ![Open Pull Requests](https://img.shields.io/github/issues-pr/hugo-toha/toha?color=yellowgreen)  ![License](https://img.shields.io/github/license/hugo-toha/toha) ![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fhugo-toha.github.io%2F)
+
 A [Hugo](https://gohugo.io/) theme for a personal portfolio with minimalist design and responsiveness.
 
-![Thumbnail](https://github.com/hossainemruz/toha/blob/master/images/tn.png)
+![Thumbnail](https://github.com/hugo-toha/toha/blob/master/images/tn.png)
 
-Example Site: [Toha Example Site](https://toha.netlify.app)
+Example Site: [hugo-toha.github.io](https://hugo-toha.github.io)
+Documentation: [toha-guides.netlify.app](https://toha-guides.netlify.app/posts)
 
 ## Features
 
@@ -18,7 +21,7 @@ Example Site: [Toha Example Site](https://toha.netlify.app)
 - Google Analytics Support
 - Disqus Comment Support
 
-For more details about the features please visit [here](https://toha.netlify.app/posts/features/features/).
+For more details about the features please visit [here](https://toha-guides.netlify.app/posts/features/).
 
 ## Requirements
 
@@ -37,7 +40,7 @@ git init
 - Add the theme as git sub-module
 
 ```console
-git submodule add https://github.com/hossainemruz/toha.git themes/toha
+git submodule add https://github.com/hugo-toha/toha.git themes/toha
 ```
 
 >Don't use SSH URL of the theme during adding as git sub-module. Also, don't clone the theme in your `themes` directory using `git clone`. They don't work well with Github Action or Netlify.
@@ -53,6 +56,22 @@ baseURL: http://example.org/
 languageCode: en-us
 title: "Toha"
 theme: "toha"
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+languages:
+  en:
+    languageName: English
+    weight: 1
+  fr:
+    languageName: Français
+    weight: 2
+  bn:
+    languageName: বাংলা
+    weight: 3
+
+# Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
+# DefaultContentLanguage: fr
 
 # Allow raw html in markdown file
 markup:
@@ -75,9 +94,6 @@ enableEmoji: true
 
 # Custom parameters
 params:
-  # copyright
-  copyright: © 2020 Copyright.
-
   # background image of the landing page
   background: "images/background.jpg"
 
@@ -87,9 +103,10 @@ params:
   logo:
     main: /assets/images/main-logo.png
     inverted: /assets/images/inverted-logo.png
+    favicon: /assets/images/favicon.png
 
   # GitHub repo URL of your site
-  gitRepo: https://github.com/hossainemruz/toha-example-site
+  gitRepo: https://github.com/hugo-toha/toha-example-site
 
   # specify whether you want to write blog post or not
   enableBlogPost: true
@@ -97,34 +114,16 @@ params:
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
 
-  # specify the list of custom menus that you want to show in the top navbar.
-  # they will be separated by a divider from the main menus.
-  customMenus:
-  - name: Notes
-    url: https://hossainnotes.netlify.app/docs/example/
-
   # Provide newsletter configuration. This feature hasn't been implemented yet.
   # Currently, you can just hide it from the footer.
   newsletter:
     enable: true
-
-  # some information about you
-  author:
-    name: "Jane Doe"
-    nickname: "Jane"
-    image: "images/avatar.png"
-    # give your some contact information. they will be used in the footer
-    contactInfo:
-      email: "janedoe@example.com"
-      phone: "+0123456789"
-    # a summary of what you do
-    summary:
-    - I am a Developer
-    - I work with Go
-    - I love to work with some fun projects
 ```
 
 You can just copy the content for `config.yaml` files from `theme/toha/exampleSite/config.yaml`.
+
+If you want to customize the any of the CSS styles on your site, create a
+`static/assets/css/style.css` file and add any custom CSS there.
 
 ## Usage
 
@@ -237,16 +236,43 @@ Here, are the current plan and progress of various components of this theme. The
 
 ## Contributing
 
-You can contribute to this theme in various way. You can report a bug, file an feature request, send a PR, share your thoughts etc.
+You can contribute to this theme in various ways. You can report a [bug](https://github.com/hugo-toha/toha/issues/new?template=bug.md), file an [feature request](https://github.com/hugo-toha/toha/issues/new?template=feature_request.md), send a PR, [share your thoughts](https://github.com/hugo-toha/toha/issues/new?template=question.md) etc.
 
-Pull requests are most welcomed and I will be happy to review. Just follow the following principles:
+Pull requests are most welcome and I will be happy to review. Just follow the following principles:
 
 - Keep it simple.
 - Keep it consistent with the design.
-- Use as little dependency as possible.
-- Have patient.
+- Use as few dependencies as possible.
+- Have patience.
 
 >I am not a web developer. I just created this theme for my personal needs. So, it is reasonable to have some flaws in the codes. Feel free to open issues and PR acknowledging the problems.
+
+## Local Development
+
+For local development, you can run your own site or the [example site](https://github.com/hugo-toha/toha-example-site) locally and make changes in the theme submodule.
+
+### Fork
+Fork [this repo](https://github.com/hugo-toha/toha) and setup your local submodule with the following from the site's folder by running the following
+
+```sh
+git submodule update --init --recursive --remote
+cd themes/toha
+git remote add my-fork https://github.com/<your-github-user>/toha
+git checkout -b my-feature-branch
+```
+
+From there you can make changes to the source code of the theme while testing with your running Hugo site.
+
+### Open a PR
+
+When the changes look good, commit and push them to your fork
+```sh
+git add .
+git commit -m "A meaningful commit message"
+git push my-fork my-feature-branch
+```
+
+And then open a PR `https://github.com/<your-github-user></your-github-user>/toha/pull/new/my-feature-branch`
 
 ## Attribution
 

@@ -5,8 +5,18 @@ ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$","\\.txt$"]
 # aqui empezaba
 baseURL: https://popiula.github.io/
 languageCode: en-us
-title: "popiula.r blog (en construcción)"
+title: "popiula's blog (en construcción)"
 theme: "toha"
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+languages:
+  en:
+    languageName: English
+    weight: 1
+
+# Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
+DefaultContentLanguage: en
 
 # Allow raw html in markdown file
 markup:
@@ -60,19 +70,4 @@ params:
   # Provide newsletter configuration. This feature hasn't been implemented yet.
   # Currently, you can just hide it from the footer.
   newsletter:
-    enable: true
-
-  # some information about you
-  author:
-    name: "Ana"
-    nickname: "popiula"
-    image: "images/avatar.png"
-    # give your some contact information. they will be used in the footer
-    contactInfo:
-      email: "r.popiula@gmail.com"
-      phone: "+0123456789"
-    # a summary of what you do
-    summary:
-    - I work in finance but...
-    - I am passionate about programmig
-    - And this blog is about that
+    enable: false
