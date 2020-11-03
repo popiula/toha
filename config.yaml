@@ -43,7 +43,7 @@ params:
     inverted: /assets/images/inverted-logo.png
 
   # GitHub repo URL of your site
-  gitRepo: https://github.com/hossainemruz/toha-example-site
+  gitRepo: https://github.com/popiula/toha
 
   # specify whether you want to write blog post or not
   enableBlogPost: true
@@ -65,7 +65,7 @@ params:
   # some information about you
   author:
     name: "Ana"
-    nickname: "popiula.r"
+    nickname: "popiula"
     image: "images/avatar.png"
     # give your some contact information. they will be used in the footer
     contactInfo:
@@ -73,6 +73,6 @@ params:
       phone: "+0123456789"
     # a summary of what you do
     summary:
-    - I am a Developer
-    - I work with Go
-    - I love to work with some fun projects
+    - I work in finance but...
+    - I am passionate about programmig
+    - And this blog is about that
