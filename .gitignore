@@ -1,6 +1,8 @@
 # Carpeta memo
 memo/*
 
+*.sh
+
 # Archivos de texto
 *.txt
 
