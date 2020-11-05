@@ -6,7 +6,7 @@ greeting: "Hey, I am"
 image: "images/avatar.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "r.popiula@gmail.com"
+  email: "r dot popiula at gmail dot com"
   # phone: "+0123456789"
 
 # some summary about what you do
