@@ -1,0 +1,16 @@
+# some information about you
+name: "Ana"
+nickname: "popiula"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hola, soy"
+image: "images/avatar.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "r dot popiula at gmail dot com"
+  # phone: "+0123456789"
+
+# some summary about what you do
+summary:
+  - Me dedico profesionalmente a las finanzas, pero...
+  - disfruto programando
+  - y este blog va de eso
