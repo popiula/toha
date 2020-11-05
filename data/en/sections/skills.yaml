@@ -2,9 +2,9 @@
 section:
   name: Skills
   id: skills
-  enable: false
+  enable: true
   weight: 2
-  showOnNavbar: false
+  showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
@@ -14,21 +14,21 @@ skills:
 - name: R
   icon: "images/skills/R.png"
   summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+  url: "https://www.r-project.org/"
 
-- name: Go Development
-  icon: "images/skills/go.png"
+- name: Python
+  icon: "images/skills/python.png"
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+  url: "https://www.python.org/"
 
 - name: Cloud Computing
   icon: "images/skills/cloud.png"
   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
 
-- name: Docker
-  icon: "images/skills/docker.svg"
+- name: RStudio
+  icon: "images/skills/RStudio.png"
   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "https://www.docker.com/"
+  url: "https://rstudio.com/"
 
 - name: Prometheus
   icon: "images/skills/prometheus.png"
@@ -47,3 +47,4 @@ skills:
 - name: Excel
   icon: "images/skills/c++.png"
   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  url: "https://git-scm.com/"
