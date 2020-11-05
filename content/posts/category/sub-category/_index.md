@@ -1,5 +1,6 @@
 ---
 title: Sub-Category
+draft: true
 menu:
   sidebar:
     name: Sub-Category
