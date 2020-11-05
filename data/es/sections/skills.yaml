@@ -1,3 +1,5 @@
+# es version
+
 # section information
 section:
   name: Skills
@@ -12,39 +14,34 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
 - name: R
-  icon: "images/skills/R.png"
+  icon: "images//sections/skills/R.png"
   summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
   url: "https://www.r-project.org/"
 
 - name: Python
-  icon: "images/skills/python.png"
+  icon: "images/sections/skills/python.png"
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
   url: "https://www.python.org/"
 
 - name: Cloud Computing
-  icon: "images/skills/cloud.png"
+  icon: "images/sections/skills/cloud.png"
   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
 
 - name: RStudio
-  icon: "images/skills/RStudio.png"
+  icon: "images/sections/skills/RStudio.png"
   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
   url: "https://rstudio.com/"
 
-- name: Prometheus
-  icon: "images/skills/prometheus.png"
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
-
 - name: Linux
-  icon: "images/skills/linux.png"
+  icon: "images/sections/skills/linux.png"
   summary: "Using as the main operating system. Capable of writing bash/shell scripts."
 
 - name: Git
-  icon: "images/skills/git.png"
+  icon: "images/sections/skills/git.png"
   summary: "Experienced with git-based development. Mostly, use Github."
   url: "https://git-scm.com/"
 
 - name: Excel
-  icon: "images/skills/c++.png"
+  icon: "images/sections/skills/excel.jpg"
   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
   url: "https://git-scm.com/"
