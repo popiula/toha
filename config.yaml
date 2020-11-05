@@ -1,6 +1,6 @@
 # incluyo
 publishDir: "popiula.github.io"
-ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$","\\.txt$"]
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.txt$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 
 # aqui empezaba
 baseURL: https://popiula.github.io/
