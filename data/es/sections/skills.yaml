@@ -41,7 +41,12 @@ skills:
   summary: "Experienced with git-based development. Mostly, use Github."
   url: "https://git-scm.com/"
 
-- name: Excel
-  icon: "images/sections/skills/excel.jpg"
+- name: Excel + VBA
+  icon: "images/sections/skills/excel.png"
+  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  url: "https://git-scm.com/"
+
+- name: GSuite
+  icon: "images/sections/skills/excel.png"
   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
   url: "https://git-scm.com/"
