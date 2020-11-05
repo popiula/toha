@@ -29,7 +29,7 @@ markup:
     ordered: false
 
 # Enable Google Analytics
-googleAnalytics: UA-XXXXXXXXX-X
+googleAnalytics: UA-147407748-1
 
 # Enable Disqus forum
 disqusShortname: does-not-exist
@@ -60,12 +60,6 @@ params:
 
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
-
-  # specify the list of custom menus that you want to show in the top navbar.
-  # they will be separated by a divider from the main menus.
-  customMenus:
-  - name: Notes
-    url: https://hossainnotes.netlify.app/docs/example/
 
   # Provide newsletter configuration. This feature hasn't been implemented yet.
   # Currently, you can just hide it from the footer.
