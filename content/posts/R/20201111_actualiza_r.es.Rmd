@@ -1,0 +1,28 @@
+---
+title: "Actualiza R con el paquete installr"
+date: 2020-11-11
+hero: /images/posts/20201111_actualiza_r.jpg
+description: "Cómo actualizar R utilizando el paquete installr"
+menu:
+  sidebar:
+    name: Actualiza R
+    identifier: "20201111_actualiza_R.es"
+    weight: 2
+    parent: R
+---
+
+Abre RGui (yo lo abro desde el buscador de aplicaciones de Windows)
+
+Carga (o instala, si no lo tienes) "installr"
+
+```{r eval = FALSE}
+# carga y/o instala el paquete installr
+if(!require(installr)) {
+install.packages("installr"); require(installr)} 
+# con esto se lanza la actualización de la instalación de R.  
+# Buscará la versión más nueva y si no coincide con la tuya 
+# te dará la opción de actualizar.
+updateR() 
+```
+
+

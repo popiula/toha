@@ -8,7 +8,7 @@ menu:
   sidebar:
     name: Introduction
     identifier: introduction
-    weight: 10
+    weight: 1
 ---
 
 Greeting! This is an introduction post. This post tests the followings:

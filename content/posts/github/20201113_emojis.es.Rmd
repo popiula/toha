@@ -1,0 +1,25 @@
+---
+title: "Utiliza emoticonos en tus commits"
+date: 2020-11-13
+hero: /images/posts/20201113_emojis.jpg
+description: "You can use emojis in your commit messages and in general in your messages on github"
+menu:
+  sidebar:
+    name: emojis
+    identifier: "20201113_emojis"
+    weight: 2
+    parent: github
+---
+
+...o en cualquier sitio dentro de github.
+
+<a href="https://gitmoji.carloscuesta.me">
+  <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
+</a>
+
+
+[Aquí](https://gist.github.com/rxaviers/7360908) hay una lista completa.
+
+
+<br><br><br>
+<span>Foto de <a href="https://unsplash.com/@domingoalvarze?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Domingo Alvarez E</a> en <a href="https://unsplash.com/s/photos/emojis?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>

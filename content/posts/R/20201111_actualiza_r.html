@@ -1,0 +1,28 @@
+---
+title: "Update R with installr package"
+date: 2020-11-11
+hero: /images/posts/20201111_actualiza_r.jpg
+description: "How to update R with installr package"
+menu:
+  sidebar:
+    name: Update R
+    identifier: "20201111_actualiza_R"
+    weight: 2
+    parent: R
+---
+
+<link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
+
+
+<p>Open RGui (I do it from the apps search on Windows)</p>
+<p>Load installr (or install it, if you don’t have it installed)</p>
+<pre class="r"><code># load or install installr package
+if(!require(installr)) {
+install.packages(&quot;installr&quot;); require(installr)} 
+# with that you launch the update of R installation.  
+# It will look for the most updated version and if does not match your 
+# it will give you the option to update your installation.
+updateR() </code></pre>
+<p><br><br><br>
+<span>Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Paweł Czerwiński</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
